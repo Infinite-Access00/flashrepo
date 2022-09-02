@@ -1,0 +1,16 @@
+#!/bin/sh 
+######################################################
+#Welcome to project-visa web application
+#Scope of project
+#Assuming you already have your maven and tomcat setup
+#Do the following below
+#Author: TC 
+########################################################
+
+echo "Get the project repository url containing developer's codes"
+echo "Create a directory in Maven server to run the git clone + url"
+echo "Change final name to visa-web.war in pom.xml"
+echo "Build code into package from the directory using mvn package"
+echo "cd to target directory and secure copy (scp) the *.war to tomcat server location using your .pem key"
+echo "Startup tomcat server, connect to a webpage and deploy the *.war"
+echo "Run mvn clean in Maven to clean up your server (Optional)"
